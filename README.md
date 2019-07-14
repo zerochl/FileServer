@@ -3,6 +3,12 @@ GoLang实现的文件服务
 ## 使用方式
 参考main.go即可,开启之后就可以访问http://127.0.0.1/staticfile下面的文件了
 ```
+type File struct {
+	FileName string
+	FilePath string
+	FileMD5 string
+	FileSize int64
+}
 type StartCallBackTest struct {
 
 }
